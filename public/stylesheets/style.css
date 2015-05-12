@@ -96,58 +96,72 @@ margin-top: 50px;
 	width: 350px;
 }
 
+.box2{
+	text-align:center;
+}
+
 button.log{
-  z-index: 10016;
   border-width: 0px;
   border-radius: 3px;
-  border-color: #dddddd;
-  border-style: solid;
   background-color: #3498db;
   color: #FFF;
   font-size: 14px;
   font-weight: bold;
-  font-style: normal;
-  font-family: Arial;
   text-align: center;
   box-shadow: 0 1px 2px rgba(0, 0, 0, 0.4);
   -o-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.4);
   -moz-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.4);
   -webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.4);
   padding-top: 6px 10px 6px 10px;
-  left: 420px;
-  position: absolute;
+  
   width: 120px;
   height: 30px;
   margin-top: 50px;
-}
-
-.box2 .p1{
-z-index: 10017;
-  border-width: 0px;
-  border-radius: 0px;
-  border-color: #c8c8c8;
-  border-style: solid;
-  background-color: #ebebeb;
-  background-size: auto;
-  background-repeat: repeat;
-  background-position: center center;
-  color: #000000;
-  font-size: 14px;
-  font-style: normal;
-  font-family: Arial;
-  text-align: center;
-  padding: 0px 0px 0px 0px;
-  left: 88px;
-  top: 486px;
-  position: absolute;
-  width: 214px;
-  height: 29px;
 }
 
 
 .box2 p{
 	margin: 0px;
 	padding: 0;
+}
+
+.box3{
+	margin-top: 100px;
+}
+
+
+.box3 .item p{
+	  width: 200px;
+  padding-top: 20px;
+  padding-left: 20px;
+}
+
+
+.box3 ul{
+	
+	  list-style-type: none;
+  text-decoration: none;
+
+}
+
+.box3 ul li p{
+	text-align: center;
+	font-family: 'Titillium Web', sans-serif;
+	display: block;
+	background-color: #ebebeb;
+
+
+}
+
+.box3 .content {
+	background-color: #ebebeb;	
+}
+
+
+.box3 img{
+	width: 321px;
+  height: 189px;
+  margin-top: 10px;
 }
 
 .box4{
