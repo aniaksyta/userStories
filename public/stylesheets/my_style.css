@@ -9,13 +9,21 @@
 	font-size: 50px;
 }
 
-.navbar-nav li a {
-	border-right: 1px solid;
-	color: black;
+.navbar-nav li a:hover {
+	background: none;
 }
 
-.navbar-nav > li:last-child > a {
-	border-right: none;
+.navbar-nav li a::after {
+    content: "";
+    padding-left:0;
+}
+
+.navbar-nav li:last-child a::after {
+    content: "";
+}
+
+.nav .separator a:hover {
+    background: none;
 }
 
 .container .text-center div h1 {
