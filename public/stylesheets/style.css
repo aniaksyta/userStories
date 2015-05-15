@@ -1,36 +1,36 @@
 .container{
-	width: 70%;
+  width: 70%;
 }
 
 }
 
 
 .header {
-	height: 100px;
-	width: 100%;
+  height: 100px;
+  width: 100%;
 
 
-	
+  
 }
 
 
 .header img{
-	margin-top: 30px;
+  margin-top: 30px;
 }
 .global-menu1 ul {
-	float: left;
-	margin-top: 30px;
+  float: left;
+  margin-top: 30px;
 
 
 }
 
 .global-menu1 ul li {
-	display: inline-block;
-	padding-top: 18px;
+  display: inline-block;
+  padding-top: 18px;
 }
 
 .global-menu1 ul li a {
-	 color: #000000;
+   color: #000000;
      font-family: 'Titillium Web', sans-serif;
      
      font-size: 20px;
@@ -44,18 +44,18 @@
 }
 
 .global-menu2 ul {
-	float: right;
-	margin-top: 30px;
+  float: right;
+  margin-top: 30px;
 
 }
 
 .global-menu2 ul li {
-	display: inline-block;
-	padding-top: 18px;
+  display: inline-block;
+  padding-top: 18px;
 }
 
 .global-menu2 ul li a {
-	 color: #000000;
+   color: #000000;
      font-family: 'Titillium Web', sans-serif;
     
      font-size: 20px;
@@ -64,7 +64,7 @@
 }
 
 .global-menu2 ul li a:hover{
-	text-decoration: none;
+  text-decoration: none;
 
 }
 
@@ -74,7 +74,7 @@
 }
 
 .title h1{
-	font-size: 48px;
+  font-size: 48px;
 }
 .
 
@@ -89,15 +89,15 @@ margin-top: 50px;
 }
 
 .box1 p{
-	margin-top: 50px;
-	text-align: left;
-	font-size: 18px;
-	font-family: 'Titillium Web', sans-serif;
-	width: 350px;
+  margin-top: 50px;
+  text-align: left;
+  font-size: 18px;
+  font-family: 'Titillium Web', sans-serif;
+  width: 350px;
 }
 
 .box2{
-	text-align:center;
+  text-align:center;
 }
 
 button.log{
@@ -121,51 +121,95 @@ button.log{
 
 
 .box2 p{
-	margin: 0px;
-	padding: 0;
+  margin: 0px;
+  padding: 0;
 }
 
 .box3{
-	margin-top: 100px;
+  margin-top: 100px;
 }
 
 
+
+.box3 .item{
+
+}
+
 .box3 .item p{
-	  width: 200px;
+    width: 200px;
   padding-top: 20px;
   padding-left: 20px;
+  padding-right: 20px;
+  display: inline-block;
 }
 
 
 .box3 ul{
-	
-	  list-style-type: none;
+  
+    list-style-type: none;
   text-decoration: none;
 
 }
 
 .box3 ul li p{
-	text-align: center;
-	font-family: 'Titillium Web', sans-serif;
-	display: block;
-	background-color: #ebebeb;
+  text-align: center;
+  font-family: 'Titillium Web', sans-serif;
+  display: block;
+  background-color: #ebebeb;
 
 
 }
 
+
+.box3 ul li {
+  
+  display: block;
+  background-color: #ebebeb;
+
+
+}
+
+.box3 .navigation{
+  
+}
+
+
+
+
+
+.box3 .navigation .jakas{
+
+  background-color: #ffffff;
+  border: solid #4b4a52 1px;
+  cursor: pointer;
+}
+
+.box3 .navigation .active {
+background-color: #ebebeb;
+}
+
+
 .box3 .content {
-	background-color: #ebebeb;	
+  background-color: #ebebeb;  
 }
 
 
 .box3 img{
-	width: 321px;
+  width: 321px;
   height: 189px;
   margin-top: 10px;
+  float: right;
 }
 
+.box3 .content .item{
+height: 215px;
+}
+
+
+
+
 .box4{
-	margin-top: 200px;
+  margin-top: 120px;
 }
 .box4 img{
     
@@ -198,24 +242,24 @@ button.log{
 }
 
 footer{
-	margin-top: 100px;
+  margin-top: 100px;
 }
 
 footer p{
-	 color: #000000;
+   color: #000000;
      font-family: 'Titillium Web', sans-serif;
      float: left;
 }
 
 footer a{
-	 color: #000000;
+   color: #000000;
      font-family: 'Titillium Web', sans-serif;
      float: right;
      margin-right: 20px;
 }
 
 footer a:hover{
-		text-decoration: none;
+    text-decoration: none;
 }
 
 footer .a1{
@@ -223,4 +267,49 @@ footer .a1{
  border-right: solid #4b4a52 1px;
  padding-right: 25px;
 
+}
+
+
+
+/*==========  Non-Mobile First Method  =========đ/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1160px) {
+
+.box1 img{
+  width: 300px;
+  height: 200px;
+}
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+
+.box1 img{
+  margin-top: 50px;
+}
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+
+
+
+
+
+
+/* Extra Small Devices, Phones */ 
+@media only screen and (max-width : 480px) {
+   
+
+
+
+
+}
+
+/* Custom, iPhone Retina */ 
+@media only screen and (max-width : 320px) {
+   
 }

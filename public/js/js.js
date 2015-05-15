@@ -1,35 +1,62 @@
-$(".p1").click(function()
-{
-	$("#text1").css( "display", "none" );
-		$("#text2").css( "display", "none" );
-		$("#text3").fadeIn("slow");
-		$( ".p1" ).addClass( "active" );
-		$( ".p2" ).removeClass( "active" );
-		$( ".p3" ).removeClass( "active" );
+$(document).ready(function(){
+
+$(".friendly").click(function() {
+
+		$("#item-1").css( "display","none" );
+		$("#item-3").css( "display", "none" );
+		$("#item-4").css( "display", "none" );
+		$("#item-2").fadeIn("slow");
+		$( ".friendly" ).addClass( "active" );
+		$( ".easy" ).removeClass( "active" );
+		$( ".user" ).removeClass( "active" );
+		$( ".user-friendly" ).removeClass( "active" );
 
 
 
 	});
 
-$( ".p2" ).click(function() {
+$( ".user" ).click(function() {
 
-		$("#text1").css( "display", "none" );
-		$("#text2").fadeIn("slow");
-		$("#text3").css( "display", "none" );
-		$( ".p1" ).removeClass( "active" );
-		$( ".p2" ).removeClass( "active" );
-		$( ".p3" ).addClass( "active" );
-
-	});
-
-	$( ".p3" ).click(function() {
-
-		$("#text1").fadeIn("slow");
-		$("#text2").css( "display", "none" );
-		$("#text3").css( "display", "none" );
-		$( ".p1" ).removeClass( "active" );
-		$( ".p2" ).addClass( "active" );
-		$( ".p3" ).removeClass( "active" );
+		$("#item-1").css( "display", "none" );
+		$("#item-3").fadeIn("slow");
+		$("#item-4").css( "display", "none" );
+		$("#item-2").css( "display", "none" );
+		$( ".friendly" ).removeClass( "active" );
+		$( ".easy" ).removeClass( "active" );
+		$( ".user" ).addClass( "active" );
+		$( ".user-friendly" ).removeClass( "active" );
+		
 
 
 	});
+
+	$( ".user-friendly" ).click(function() {
+
+		$("#item-1").css( "display", "none" );
+		$("#item-3").css( "display", "none" );
+		$("#item-4").fadeIn("slow");
+		$("#item-2").css( "display", "none" );
+		$( ".friendly" ).removeClass( "active" );
+		$( ".easy" ).removeClass( "active" );
+		$( ".user" ).removeClass( "active" );
+		$( ".user-friendly" ).addClass( "active" );
+
+
+	});
+
+	$( ".easy" ).click(function() {
+
+		$("#item-1").fadeIn("slow");
+		$("#item-3").css( "display", "none" );
+		$("#item-4").css( "display", "none" );
+		$("#item-2").css( "display", "none" );
+		$( ".friendly" ).removeClass( "active" );
+		$( ".easy" ).addClass( "active" );
+		$( ".user" ).removeClass( "active" );
+		$( ".user-friendly" ).removeClass( "active" );
+	
+		
+
+	});
+
+  });
